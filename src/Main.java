@@ -13,12 +13,13 @@ public class Main {
         ArrayList<Student> students = new ArrayList<>();
         students.add(student1);
         students.add(student2);
-        students.add(student3);
+        students.add(student3);students.add(null);
         students.add(student4);
         students.add(student5);
         students.add(student6);
         students.add(student7);
         students.add(student8);
+
         for (Student student : students) {
             try{
             System.out.println(student);}catch (RuntimeException e){
